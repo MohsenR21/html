@@ -6,16 +6,20 @@
     <title>Form & input </title>
 </head>
 <body>
-    <form action="./New.html">
+    <form action="#">
         <div>
             <label for="text"> Name </label>
             <input id="text" type="text" placeholder="enter your name">
             <label for="int"> IDcard</label>
-            <input id="int" type="int" placeholder="enter your ID">
+            <input id="int" type="number" placeholder="12345">
         </div>
+        <br>
+        <br>
         <div>
-            <label for="textarea"> Text area <textarea name="textarea" id="textarea" ></textarea></label>
+            <label for="text"> Text area </label>
+            <textarea name="text" title="Boxxrrrrrr"></textarea>
         </div>
+        <br>
         <div>
             <label for="selectBox"> select box <select name="selectBox" id="selectBox"> <option value="select1">select1</option> <option value="select2">select2</option></select></label>
         </div>
@@ -30,12 +34,12 @@
             <input id="radioBT" type="radio" name="gender" value="female"> female
         </div>
         <div>
-            <label for="date"> date <input type="date"> </label>
+            <label for="date"> date <input type="date" id="date"> </label>
         </div>
         <div>
             <input type="submit">
-            <button type="submit"> send </button>
-            <button type="submit"> reset</button>
+            <button type="button"> send </button>      <!-- used keys -->
+            <button type="menu"> menu</button>
         </div>
 
     </form>
