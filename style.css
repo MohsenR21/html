@@ -1,38 +1,20 @@
-/* # ---> id
-. ---> class */
-/* h1, p{
-    color: aqua;
-    font-size: xx-large;
+/* body p {
+    color:red;
+} */
+/* body > p {
+    color:rgb(79, 221, 14);
 } */
 
-/* Universal selector */
-* {
-    color: aqua;
-    font-size:xx-large;
-}
-/* p{
-    color: blue;
-    font-size: large;
-}
-label{
-    color: aquamarine;
+/* div + p {
+    color:rgb(79, 221, 14);
 } */
-#last{
-    color: red;
-    background-color: blue;
+div ~ p {
+    color:rgb(79, 221, 14);
 }
 
-.a{
-    color: blue;
-    font-style: oblique;
-    background-color: brown;
-    font-size: x-small;
+#blue {
+    color:aqua;
 }
-body{
-    background: darkgrey;
-}
-#green{
-    color: aqua;
-    font-size:x-large;
-    font-style:oblique;
+.red{
+    color: red
 }
