@@ -1,3 +1,5 @@
+/* # ---> id
+. ---> class */
 /* h1, p{
     color: aqua;
     font-size: xx-large;
@@ -28,4 +30,9 @@ label{
 }
 body{
     background: darkgrey;
+}
+#green{
+    color: aqua;
+    font-size:x-large;
+    font-style:oblique;
 }
