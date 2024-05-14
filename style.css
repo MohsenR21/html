@@ -1,20 +1,16 @@
-/* body p {
-    color:red;
-} */
-/* body > p {
-    color:rgb(79, 221, 14);
-} */
-
-/* div + p {
-    color:rgb(79, 221, 14);
-} */
-div ~ p {
-    color:rgb(79, 221, 14);
+body{
+    background-color: aqua;
+}
+body > p {
+    /* color name */
+    color: red;
+}
+div + p {
+    /* color RGB */
+    color:rgb(12, 111, 231);
 }
 
-#blue {
-    color:aqua;
-}
-.red{
-    color: red
+ul{
+    /* color HEX */
+    color:#ffffff
 }
