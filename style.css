@@ -15,15 +15,22 @@ table, th, td{
     border:1px solid black
 
 }
-body{
+/* body{
     background-image: url(../Picture1.png);
     background-repeat: no-repeat;
     /* background-position: center; */
-    background-size: cover;
-}
+    /* background-size: cover;
+} */ */
 .part{
     font-size: medium;
     font-style: oblique;
     font-stretch: expanded;
     color: rgb(12, 207, 12);
+}
+img{
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 15/5;
+    padding: 5px;
+
 }
