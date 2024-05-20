@@ -1,16 +1,29 @@
-body{
+#table1{
+    color: blue;
+}
+th{
+    font-size: 20px;
+    color: black;
     background-color: aqua;
+    border-width: 1px;
+    border-top: 5px;
+    border-radius: 1px;
+    border-style:dashed;
+    
 }
-body > p {
-    /* color name */
-    color: red;
-}
-div + p {
-    /* color RGB */
-    color:rgb(12, 111, 231);
-}
+table, th, td{
+    border:1px solid black
 
-ul{
-    /* color HEX */
-    color:#ffffff
+}
+body{
+    background-image: url(../Picture1.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+.part{
+    font-size: medium;
+    font-style: oblique;
+    font-stretch: expanded;
+    color: rgb(12, 207, 12);
 }
