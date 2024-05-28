@@ -1,36 +1,21 @@
-#table1{
-    color: blue;
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
 }
-th{
-    font-size: 20px;
-    color: black;
-    background-color: aqua;
-    border-width: 1px;
-    border-top: 5px;
-    border-radius: 1px;
-    border-style:dashed;
-    
-}
-table, th, td{
-    border:1px solid black
 
-}
-/* body{
-    background-image: url(../Picture1.png);
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    /* background-size: cover;
-} */ */
-.part{
-    font-size: medium;
-    font-style: oblique;
-    font-stretch: expanded;
-    color: rgb(12, 207, 12);
-}
-img{
-    width: 200px;
-    height: 200px;
-    aspect-ratio: 15/5;
-    padding: 5px;
+/* style of margin padding and box */
+.box{
+    background: rebeccapurple;
+    border: 2px red solid;
+    /* padding: in all sides; */
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
 
 }
